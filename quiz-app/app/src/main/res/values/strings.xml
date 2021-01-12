@@ -1,0 +1,89 @@
+<resources>
+    <string name="app_name">1601 Quiz</string>
+
+    <string name="correct_answer_toast">Correct!</string>
+    <string name="wrong_answer_toast">Wrong!</string>
+    <string name="question_text">Is Java an Object-Oriented Language?</string>
+
+    <string name="question1">What does SDK mean in Android Studio?\n
+        [A] It is a variable name.\n
+        [B] It is a set of development tools used to develop applications for Android libraries.\n
+        [C] It is a library that can be called in class.\n
+        [D] It is application programming interfaces.\n
+        [E] It is a tool used to stimulate the project.\n
+        *B*
+    </string>
+    <string name="question2">What does Build/Rebuild Project do?\n
+        [A] Recompile all the source file in the project. \n
+        [B] Remove all of compiled files in your project.\n
+        [C] Clean all of the data that exists.\n
+        [D] It can be used to start another project.\n
+        [E] All of the information will be deleted.\n
+        *A*
+    </string>
+    <string name="question3">Where can we find the XML String Resources?\n
+        [A] Under manifests section.\n
+        [B] Under java section.\n
+        [C] Under layout section.\n
+        [D] Under mipmap section.\n
+        [E] Under values section.\n
+        *E*
+    </string>
+    <string name="question4">Which of the following about layout resources is true?\n
+        [A] You can assume any derivation of view group will accept nested view s.\n
+        [B] Recourse ID doesn’t have to be unique.\n
+        [C] An individual UI component, generally referred to as a "widget". \n
+        [D] The layout elements cannot be instantiated at runtime.\n
+        [E] Each layout file can contain several root elements.\n
+        *C*
+    </string>
+    <string name="question5">What is the code for creating a yes button label?\n
+        [A] android:text=“string/yes_button_label”\n
+        [B] android:text=@string/“yes_button_label”\n
+        [C] android:text=“@string/yes_button_label”\n
+        [D] android:text=“/yes_button_label@string”\n
+        [E] android:text=“string”/yes_button_label\n
+        *C*
+    </string>
+    <string name="question6">How do you create an ArrayList named str?\n
+        [A] ArrayList&lt;String &gt; str String = new ArrayList&lt;Str&gt;();\n
+        [B] ArrayList&lt;String&gt; str = new ArrayList&lt;String&gt;();\n
+        [C] Array&lt;String&gt; str = new ArrayList&lt;String&gt;();\n
+        [D] String[] str = new String[]();\n
+        [E] ArrayList&lt;String&gt; = new ArrayList&lt;str&gt;();\n
+        *B*
+    </string>
+    <string name="question7">How do you create a class that inherits from anther class?\n
+        [A] Use inherits + class name.\n
+        [B] Use super + class name.\n
+        [C] Use nested structure under that class\n
+        [D] Use extends + class name.\n
+        [E] Call that class by using class name + ();\n
+        *D*
+    </string>
+    <string name="question8">Which of the following about resources are true?\n
+        [A] Resources are executable java code.\n
+        [B] XML files cannot be used in resources.\n
+        [C] UI components are assigned an ID automatically.\n
+        [D] You can modify the R.java file by hand.\n
+        [E] You can access your resources by using R class.\n
+        *E*
+    </string>
+    <string name="question9">Which of the following about toast are true?\n
+        [A] It provides simple feedback about an operation in a small popup.\n
+        [B] Toasts are clickable.\n
+        [C] The makeText() methods only take two parameters.\n
+        [D] It remains visible for a long time period.\n
+        [E] You cannot change the toast position.\n
+        *A*
+    </string>
+    <string name="question10">Which is the most appropriate way of using lambda expressions?\n
+        [A] mYesButton.setOnClickListener v -&gt; {some code…}\n
+        [B] mYesButton.setOnClickListener( -&gt; v {some code…})\n
+        [C] mYesButton.setOnClickListener( -&gt; {some code…} -&gt; v)\n
+        [D] mYesButton.setOnClickListener({some code…} -&gt;)\n
+        [E] mYesButton.setOnClickListener(v -&gt; {some code…})\n
+        *E*
+    </string>
+</resources>
+

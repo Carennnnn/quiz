@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:ignore="ExtraText">
+
+    <TextView
+        android:id="@+id/question_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="24dp"
+        android:text="@string/question_text" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/A_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="A" />
+
+    <Button
+        android:id="@+id/B_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="B"/>
+
+    <Button
+        android:id="@+id/C_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="C" />
+
+    <Button
+        android:id="@+id/D_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="D" />
+
+
+    <Button
+        android:id="@+id/E_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E" />
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/prev_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PREV"
+            android:layout_gravity="right"/>
+        <Button
+            android:id="@+id/submit_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SUBMIT"
+            android:layout_gravity="left"/>
+
+        <Button
+            android:id="@+id/next_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+</LinearLayout>
